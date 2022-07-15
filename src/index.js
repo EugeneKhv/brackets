@@ -1,6 +1,5 @@
 module.exports = function check(str, bracketsConfig) {
-    let delim = '';
-    let strTmp = '';
+    let delim = '', strTmp = '';
     while (strTmp != str) {
         strTmp = str;
         for (let i = 0; i < bracketsConfig.length; i++) {
